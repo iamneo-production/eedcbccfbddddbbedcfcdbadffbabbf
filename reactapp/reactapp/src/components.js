@@ -102,10 +102,3 @@ const Stopwatch = () => {
 
 export default Stopwatch;
 
-// const handleResume = () => {
-//   setIsActive(true);
-//   setIsPaused(false);
-//   countRef.current = setInterval(() => {
-//     setTime((time) => time + 1);
-//   }, 1000);
-// };
