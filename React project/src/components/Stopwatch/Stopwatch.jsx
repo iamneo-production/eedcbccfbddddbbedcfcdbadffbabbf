@@ -86,16 +86,6 @@ const Stopwatch = () => {
                 </button>
               )}
 
-              {(isActive && !isPaused) && (
-                <button
-                  data-testid="resume"
-                  onClick={handlePauseResume}
-                  className="btn btn-primary p-2 m-1"
-                >
-                  {isBtn}
-                </button>
-              )}
-              
               <button
                 data-testid="reset"
                 onClick={handleReset}
